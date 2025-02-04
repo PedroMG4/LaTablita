@@ -1,0 +1,489 @@
+[
+    {
+        "ID": "prod-004",
+        "Nombre": "Medallones de carne La Blanca",
+        "Precio": 650,
+        "Pesable": false,
+        "Categoria": "Congelados"
+    },
+    {
+        "ID": "prod-005",
+        "Nombre": "Queso Barra Tybo Santa María",
+        "precio100gramos": 923,
+        "preciokilo": 9230,
+        "Pesable": true,
+        "Categoria": "Quesos"
+    },
+    {
+        "ID": "prod-006",
+        "Nombre": "Queso Azul Tremblay",
+        "precio100gramos": 1750,
+        "preciokilo": 17500,
+        "Pesable": true,
+        "Categoria": "Quesos"
+    },
+    {
+        "ID": "prod-007",
+        "Nombre": "Queso cheddar Santa Maria",
+        "precio100gramos": 950,
+        "preciokilo": 9500,
+        "Pesable": true,
+        "Categoria": "Quesos"
+    },
+    {
+        "ID": "prod-009",
+        "Nombre": "Queso Sardo Santa María",
+        "precio100gramos": 1375,
+        "preciokilo": 13750,
+        "Pesable": true,
+        "Categoria": "Quesos"
+    },
+    {
+        "ID": "prod-011",
+        "Nombre": "Ricota Silvia",
+        "precio100gramos": 328,
+        "preciokilo": 3280,
+        "Pesable": true,
+        "Categoria": "Quesos"
+    },
+    {
+        "ID": "prod-012",
+        "Nombre": "Paleta Sandwichera Piara",
+        "precio100gramos": 290,
+        "preciokilo": 2900,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-014",
+        "Nombre": "Paleta Cocida Lario",
+        "precio100gramos": 900,
+        "preciokilo": 9000,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-015",
+        "Nombre": "Jamón 214",
+        "precio100gramos": 1064,
+        "preciokilo": 10640,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-016",
+        "Nombre": "Jamón Weslchen",
+        "precio100gramos": 615,
+        "preciokilo": 6150,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-019",
+        "Nombre": "Salame La Medalla",
+        "precio100gramos": 1040,
+        "preciokilo": 10400,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-020",
+        "Nombre": "Salame Lario",
+        "precio100gramos": 1765,
+        "preciokilo": 17650,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-021",
+        "Nombre": "Salame Champion",
+        "precio100gramos": 973,
+        "preciokilo": 9730,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-022",
+        "Nombre": "Mortadela Piara",
+        "precio100gramos": 435,
+        "preciokilo": 4350,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-023",
+        "Nombre": "Mortadela Lario",
+        "precio100gramos": 670,
+        "preciokilo": 6700,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-024",
+        "Nombre": "Salchichón Primavera 214",
+        "precio100gramos": 616,
+        "preciokilo": 6160,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-025",
+        "Nombre": "Salame Bastón La Casona",
+        "precio100gramos": 1600,
+        "preciokilo": 16000,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-026",
+        "Nombre": "Bondiola 214",
+        "precio100gramos": 2000,
+        "preciokilo": 20000,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-027",
+        "Nombre": "Salamin La Casona",
+        "precio100gramos": 315,
+        "preciokilo": 3150,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-028",
+        "Nombre": "Panceta Ahumada Cagnoli",
+        "precio100gramos": 1200,
+        "preciokilo": 12000,
+        "Pesable": true,
+        "Categoria": "Fiambres"
+    },
+    {
+        "ID": "prod-029",
+        "Nombre": "Dulce de Batata Arcor",
+        "precio100gramos": 70,
+        "preciokilo": 700,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-030",
+        "Nombre": "Dulce de Batata Dulcor",
+        "precio100gramos": 301,
+        "preciokilo": 3010,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-031",
+        "Nombre": "Dulce de Batata c\/chocolate Arcor",
+        "precio100gramos": 70,
+        "preciokilo": 700,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-032",
+        "Nombre": "Dulce de Batata c\/chocolate Dulcor",
+        "precio100gramos": 70,
+        "preciokilo": 700,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-033",
+        "Nombre": "Dulce de Membrillo Arcor",
+        "precio100gramos": 90,
+        "preciokilo": 900,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-034",
+        "Nombre": "Dulce de Membrillo Dulcor 5kg",
+        "precio100gramos": 392,
+        "preciokilo": 3920,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-035",
+        "Nombre": "Dulce de Leche Santa María x 25kg",
+        "precio100gramos": 320,
+        "preciokilo": 3200,
+        "Pesable": true,
+        "Categoria": "Dulces"
+    },
+    {
+        "ID": "prod-036",
+        "Nombre": "Ravioles J y Q",
+        "Precio": 1600,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-037",
+        "Nombre": "Ravioles Verdura",
+        "Precio": 1600,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-038",
+        "Nombre": "Ñoquis",
+        "Precio": 1000,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-039",
+        "Nombre": "Fideo casero",
+        "Precio": 1000,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-040",
+        "Nombre": "Tapa de Pascualina",
+        "Precio": 980,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-041",
+        "Nombre": "Tapa de Empanada HORNO La Nona",
+        "Precio": 750,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-042",
+        "Nombre": "Tapa de Empanada FREIR La Nona",
+        "Precio": 630,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-043",
+        "Nombre": "Tapa de Pastelito La Nona",
+        "Precio": 630,
+        "Pesable": false,
+        "Categoria": "Pastas"
+    },
+    {
+        "ID": "prod-044",
+        "Nombre": "Pan Lactal CHICO CANGA",
+        "Precio": 1500,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-045",
+        "Nombre": "Pan Lactal CHICO SALVADO CANGA",
+        "Precio": 1500,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-046",
+        "Nombre": "Pan Lactal GRANDE CANGA",
+        "Precio": 1800,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-047",
+        "Nombre": "PrePizza CANGA",
+        "Precio": 800,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-048",
+        "Nombre": "Pan de Miga CANGA",
+        "Precio": 2900,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-049",
+        "Nombre": "Paneton CANGA",
+        "Precio": 9200,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-050",
+        "Nombre": "Pan pancho comun x6 CANGA",
+        "Precio": 960,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-051",
+        "Nombre": "Pan de Hamburguesa x4 CANGA",
+        "Precio": 850,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-052",
+        "Nombre": "Pan común TÍA MARCELA",
+        "Precio": 1430,
+        "Pesable": false,
+        "Categoria": "Panificados"
+    },
+    {
+        "ID": "prod-053",
+        "Nombre": "Mayonesa Dánica Fiesta 100grs.",
+        "Precio": 420,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-054",
+        "Nombre": "Mayonesa Hellman's 118grs",
+        "Precio": 670,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-055",
+        "Nombre": "Mayonesa Hellmann's 237grs.",
+        "Precio": 1260,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-056",
+        "Nombre": "Mayonesa Hellmann's 475grs.",
+        "Precio": 2150,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-057",
+        "Nombre": "Mayonesa Hellmann's Clásica 2.9kg.",
+        "Precio": 7920,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-058",
+        "Nombre": "Mayonesa Hellmann's Suave 2.9kg.",
+        "Precio": 7100,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-059",
+        "Nombre": "Mayonesa Natura 250grs.",
+        "Precio": 320,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-060",
+        "Nombre": "Mayonesa Natura 500grs.",
+        "Precio": 600,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-061",
+        "Nombre": "Ketchup Hellmann's 3kg.",
+        "Precio": 11680,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-062",
+        "Nombre": "Ketchup Hellmann's 250grs.",
+        "Precio": 2000,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-063",
+        "Nombre": "Mostaza Savora 250grs.",
+        "Precio": 460,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-064",
+        "Nombre": "Mostaza Savora 500grs.",
+        "Precio": 830,
+        "Pesable": false,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-066",
+        "Nombre": "Aceituna La Portada suelta balde 5kg",
+        "precio100gramos": 620,
+        "preciokilo": 6200,
+        "Pesable": true,
+        "Categoria": "Varios"
+    },
+    {
+        "ID": "prod-679cf27b725952.81665349",
+        "Nombre": "Queso cremoso Santa Maria",
+        "Categoria": "Quesos",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 721,
+        "preciokilo": 7210
+    },
+    {
+        "ID": "prod-67a21684a10f89.63415903",
+        "Nombre": "Combo Pizza: 400grs queso Muzzarella + 2 Pre-pizzas",
+        "Categoria": "Combos",
+        "Pesable": false,
+        "Precio": 4850,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67a216c7bbf528.33623953",
+        "Nombre": "Combo Panchos: Salchichas (paq. x6) + Pan de panchos (x6) + Mayonesa Hellman's 118grs",
+        "Categoria": "Combos",
+        "Pesable": false,
+        "Precio": 2400,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67a217113cc600.80280778",
+        "Nombre": "Combo Hamburguesa: 4 medallones + Pan de hamburguesa (x 4u) + 100grs Queso cheddar",
+        "Categoria": "Combos",
+        "Pesable": false,
+        "Precio": 3000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67a21747109ca1.49931059",
+        "Nombre": "Combo Tarta: Tapa de tarta La Nona + 200grs Queso muzarella + 200grs Jamón Welschen",
+        "Categoria": "Combos",
+        "Pesable": false,
+        "Precio": 3730,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67a2177f223116.17065767",
+        "Nombre": "Combo Miga: Paquete de pan de miga + 10 fetas queso barra + 10 fetas jamón + Mayonesa Hellman's de 118grs",
+        "Categoria": "Combos",
+        "Pesable": false,
+        "Precio": 6000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-064",
+        "Nombre": "Pepsi de 3Lts",
+        "Precio": 3000,
+        "Pesable": false,
+        "Categoria": "Bebidas"
+    }
+]

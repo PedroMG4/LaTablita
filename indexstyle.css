@@ -1,0 +1,170 @@
+/* Estilos generales */
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f0;
+    color: #333;
+    text-align: center;
+}
+
+/* HEADER MODERNO */
+header {
+    position: relative;
+    background: linear-gradient(180deg, rgba(22, 74, 65, 0.8), rgba(22, 74, 65, 0.5)), url('assets/fiambreria.jpg') no-repeat center/cover;
+    height: 480px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.logoencontacto{
+    width: 300px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navlist {
+    list-style: none;
+    padding: 15px;
+    background: #164A41;
+}
+
+.navlist li {
+    display: inline;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.navlist li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.navlist a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlist a:hover{
+    text-decoration: none;
+}
+
+/* PRODUCTOS */
+.productos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: #9DC88D;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+
+
+.producto:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* BOTONES */
+.boton {
+    background: #F1B24A;
+    scroll-behavior: smooth;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #164A41;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.boton:hover {
+    background: #4D774E;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #164A41;
+    color: white;
+    padding: 20px;
+}
+
+.producto img {
+    width: 100%; /* Para que ocupen todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    max-width: 250px; /* Limita el tamaño máximo */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    border-radius: 10px;
+}
+
+---------------------------------------
+
+/* Barra de navegación */
+.headercontacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00; /* Color llamativo, podés cambiarlo */
+    padding: 10px 20px;
+    position: fixed; /* Hace que la barra quede fija arriba */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logoencontacto {
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin-left: 20px;
+}
+
+/* Navegación */
+.navlistcontacto {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlistcontacto li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navlistcontacto a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navlistcontacto a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}

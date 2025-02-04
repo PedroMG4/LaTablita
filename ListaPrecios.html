@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esta es la importación de nuestro archivo CSS-->
+    <link rel="stylesheet" href="listadeprecios.css">
+    <!-- Título de la web-->
+    <title>La Tablita</title>
+
+<!--boxicons-->     
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<!--remixicon-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <!--Esta sección es la cabecera de la pagina web, la cual tendrá logo y barra de navegación-->
+    <header>
+        <a href="index.html" class="logo-link"><img src="assets/LogoBuenaCalidad.png" alt="Logo" width="70px" height="70px" class="logo">
+        </a>
+
+        <!-- truco para que el boton sea clickeable sin usar JS-->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </label>
+        
+
+        <ul class="navlist">
+            <li><a href="contacto.html">Donde estamos</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </header>
+
+        <div class="Categorias" id="menu-categorias">
+        </div>
+
+    </div>
+
+    <div id="datos"></div>
+
+    <script src="listadeprecios.js"></script>
+ 
+</body>
+</html>
