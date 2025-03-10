@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.producto-form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#nombre{
+    width: 93.5%;
+}
+
+#precio{
+    width: 93.5%;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-left: 5px;
+}
+
+#pesableInputs {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #218838;
+}
+
+#eliminar {
+    background: #dc3545;
+    color: white;
+}
+
+#eliminar:hover {
+    background: #c82333;
+}

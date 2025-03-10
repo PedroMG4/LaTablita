@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Gestión de Productos</title>
+
+</head>
+<body>
+
+    <form action="gestionar_producto.php" method="POST" class="producto-form">
+        <h2>Gestionar productos</h2>
+
+        <label for="id">Seleccionar Producto:</label>
+        <select id="id" name="id" onchange="cargarProducto()">
+            <option value="">Nuevo Producto</option>
+        </select>
+
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <label for="categoria">Categoría:</label>
+        <select name="categoria" id="categoria" required>
+            <option value="">Selecciona una categoría</option>
+        </select>
+
+        <label for="esPesable">¿Es pesable?
+            <input type="checkbox" name="esPesable" id="esPesable" onclick="togglePesableInputs()">
+        </label>
+
+        <div id="pesableInputs" style="display: none;">
+            <label for="precio100gramos">Precio por 100g:</label>
+            <input type="number" name="precio100gramos" id="precio100gramos" step="0.01">
+            
+            <label for="preciokilo">Precio por Kilo:</label>
+            <input type="number" name="preciokilo" id="preciokilo" step="0.01">
+        </div>
+
+        <label for="precio">Precio Unitario:</label>
+        <input type="number" name="precio" id="precio" step="0.01">
+
+        <button type="submit" name="accion" value="guardar">Guardar Producto</button>
+        <button type="button" id="eliminar" onclick="eliminarProducto()">Eliminar Producto</button>
+    </form>
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>
