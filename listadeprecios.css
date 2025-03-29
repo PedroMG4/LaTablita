@@ -48,7 +48,7 @@ header {
     transform: scale(1.05);
 }
 
-/* BARRA DE NAVEGACIÓN (APLICANDO ESTILOS DE NAVLISTCONTACTO) */
+/* BARRA DE NAVEGACIÓN */
 .navlist {
     list-style: none;
     display: flex;
@@ -63,25 +63,26 @@ header {
 .navlist a {
     color: white;
     text-decoration: none;
-    font-weight: 900; /* Asegura que el texto sea más grueso */
-    font-size: 16px; /* Ajusta el tamaño para que coincida mejor */
+    font-weight: 900;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background 0.3s, transform 0.2s;
-    font-family: 'Poppins', sans-serif; /* Usa la misma fuente que en navlistcontacto */
+    font-family: 'Poppins', sans-serif;
 }
 
+/* Menú de categorías escritorio */
 #menu-categorias.Categorias {
     margin-top: 25px;
     margin-left: 150px;
     margin-right: 150px;
     background-color: #206257;
     border-radius: 50px;
-    display: flex; /* Activa flexbox */
-    align-items: center; /* Centra verticalmente el contenido */
-    justify-content: center; /* Opcional: Centra horizontalmente */
-    height: 60px; /* Ajusta la altura según lo necesites */
-    padding: 10px 20px; /* Espaciado interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 10px 20px;
 }
 
 .navlist a:hover {
@@ -101,36 +102,90 @@ header {
     cursor: pointer;
 }
 
-/* Diseño responsive del menú */
+#menutoggleCategorias {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #206257;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+#categoriasResponsive {
+    display: none;
+    flex-direction: column;
+    background-color: #206257;
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 997;
+}
+
+#categoriasResponsive a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#categoriasResponsive a:hover {
+    background-color: #164A41;
+    transform: scale(1.02);
+}
+
+/* Ocultar en escritorio */
+@media (min-width: 769px) {
+    #categoriasResponsive {
+        display: none !important;
+    }
+
+    #menutoggleCategorias {
+        display: none !important;
+    }
+
+    #menu-categorias.Categorias {
+        display: flex !important;
+    }
+}
+
+/* Responsive: Menú abajo y en flujo */
 @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        height: auto;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
     .headercontacto {
         flex-direction: column;
         align-items: center;
-        
     }
 
     .navlist {
         flex-direction: column;
         width: 100%;
-        position: absolute;
-        top: 150px;
-        left: 0;
         background: #164A41;
         text-align: center;
         display: none;
-    }
-
-    #menu-categorias.Categorias {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 100%;
-        width: 500px;
-        grid-gap: 10px;
-        margin-left: auto;
-    }
-
-    .navlist li {
-        margin: 15px 0;
     }
 
     #menu-toggle:checked + .menu-icon-action + .navlist {
@@ -139,6 +194,20 @@ header {
 
     .menu-icon-action {
         display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #menu-categorias.Categorias {
+        display: none;
+    }
+
+    .navlist li {
+        margin: 15px 0;
+    }
+
+    #categoriasResponsive.show {
+        display: flex;
     }
 }
 

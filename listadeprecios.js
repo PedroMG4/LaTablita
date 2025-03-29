@@ -1,11 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const contenido = document.getElementById("datos");
-    const menuCategorias = document.getElementById("menu-categorias");
+    const botonToggle = document.getElementById("menutoggleCategorias");
+    const menuCategorias = document.getElementById("categoriasResponsive");
+    const menuCategoriasDesktop = document.getElementById("menu-categorias"); // ✅ nuevo
 
-    if (!menuCategorias || !contenido) {
-        console.error("Error: No se encontró el elemento 'menu-categorias' o 'datos'");
+    if (!botonToggle || !menuCategorias || !menuCategoriasDesktop || !contenido) {
+        console.error("Error: No se encontró el botón o los elementos necesarios");
         return;
     }
+
+    function toggleMenu() {
+        menuCategorias.classList.toggle("show");
+    }
+
+    botonToggle.addEventListener("click", toggleMenu);
 
     function agregarEstilosTabla() {
         const link = document.createElement("link");
@@ -27,13 +35,27 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             const categorias = [...new Set(datos.map(item => item.Categoria))];
+
+            // Limpiar menús antes de agregar contenido
             menuCategorias.innerHTML = "";
-            
+            menuCategoriasDesktop.innerHTML = "";
+
             categorias.forEach(categoria => {
                 const categoriaId = `categoria-${categoria.replace(/\s+/g, '-').toLowerCase()}`;
-                const enlace = document.createElement("li");
-                enlace.innerHTML = `<a href="#${categoriaId}" class="categoria-link">${categoria}</a>`;
+
+                // Enlace para menú mobile
+                const enlace = document.createElement("a");
+                enlace.href = `#${categoriaId}`;
+                enlace.className = "categoria-link";
+                enlace.textContent = categoria;
                 menuCategorias.appendChild(enlace);
+
+                // Enlace para menú de escritorio
+                const enlaceDesktop = document.createElement("a");
+                enlaceDesktop.href = `#${categoriaId}`;
+                enlaceDesktop.className = "categoria-link";
+                enlaceDesktop.textContent = categoria;
+                menuCategoriasDesktop.appendChild(enlaceDesktop);
             });
 
             let html = `
@@ -50,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (productosFiltrados.length > 0) {
                     const categoriaId = `categoria-${categoria.replace(/\s+/g, '-').toLowerCase()}`;
                     const imagenSrc = `assets/${categoria.toLowerCase().replace(/\s+/g, '-')}.png`;
-                    
+
                     html += `<tbody id="${categoriaId}">
                                 <tr class="categoria-header">
                                     <th colspan="2">
@@ -58,19 +80,20 @@ document.addEventListener("DOMContentLoaded", function() {
                                         ${categoria}
                                     </th>
                                 </tr>`;
-        
+
                     productosFiltrados.forEach(item => {
                         html += `
                             <tr>
                                 <td>${item.Nombre}</td>
                                 <td class="precio">
-                                    ${item.Precio ? `$${item.Precio}` : 
-                                    (item.precio100gramos && item.preciokilo) ? 
-                                    `$${item.precio100gramos} / 100g<br>$${item.preciokilo} / kg` : 
+                                    ${item.Precio ? `$${item.Precio}` :
+                                (item.precio100gramos && item.preciokilo) ?
+                                    `$${item.precio100gramos} / 100g<br>$${item.preciokilo} / kg` :
                                     `$${item.precio}`}
                                 </td>
                             </tr>`;
                     });
+
                     html += `</tbody>`;
                 }
             });
@@ -79,17 +102,20 @@ document.addEventListener("DOMContentLoaded", function() {
             contenido.innerHTML = html;
 
             document.querySelectorAll(".categoria-link").forEach(link => {
-                link.addEventListener("click", function(e) {
+                link.addEventListener("click", function (e) {
                     e.preventDefault();
                     const destino = document.querySelector(this.getAttribute("href"));
                     if (destino) {
                         const headerHeight = document.querySelector("header").offsetHeight;
-                        const offsetTop = destino.offsetTop - headerHeight+400;
+                        const offsetTop = destino.offsetTop - headerHeight + 400;
 
                         window.scrollTo({
                             top: offsetTop,
                             behavior: "smooth"
                         });
+
+                        // Cierra el menú si está en modo responsive
+                        menuCategorias.classList.remove("show");
                     }
                 });
             });
