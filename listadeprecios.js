@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-document.addEventListener("DOMContentLoaded", function() {
-    const contenido = document.getElementById("datos");
-    const menuCategorias = document.getElementById("menu-categorias");
-
-    if (!menuCategorias || !contenido) {
-        console.error("Error: No se encontró el elemento 'menu-categorias' o 'datos'");
-        return;
-    }
-
-=======
 document.addEventListener("DOMContentLoaded", function () {
     const contenido = document.getElementById("datos");
     const botonToggle = document.getElementById("menutoggleCategorias");
     const menuCategorias = document.getElementById("categoriasResponsive");
-    const menuCategoriasDesktop = document.getElementById("menu-categorias"); // ✅ nuevo
+    const menuCategoriasDesktop = document.getElementById("menu-categorias");
 
     if (!botonToggle || !menuCategorias || !menuCategoriasDesktop || !contenido) {
         console.error("Error: No se encontró el botón o los elementos necesarios");
@@ -26,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     botonToggle.addEventListener("click", toggleMenu);
 
->>>>>>> master
     function agregarEstilosTabla() {
         const link = document.createElement("link");
         link.rel = "stylesheet";
@@ -47,15 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             const categorias = [...new Set(datos.map(item => item.Categoria))];
-<<<<<<< HEAD
-            menuCategorias.innerHTML = "";
-            
-            categorias.forEach(categoria => {
-                const categoriaId = `categoria-${categoria.replace(/\s+/g, '-').toLowerCase()}`;
-                const enlace = document.createElement("li");
-                enlace.innerHTML = `<a href="#${categoriaId}" class="categoria-link">${categoria}</a>`;
-                menuCategorias.appendChild(enlace);
-=======
 
             // Limpiar menús antes de agregar contenido
             menuCategorias.innerHTML = "";
@@ -77,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 enlaceDesktop.className = "categoria-link";
                 enlaceDesktop.textContent = categoria;
                 menuCategoriasDesktop.appendChild(enlaceDesktop);
->>>>>>> master
             });
 
             let html = `
@@ -94,11 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (productosFiltrados.length > 0) {
                     const categoriaId = `categoria-${categoria.replace(/\s+/g, '-').toLowerCase()}`;
                     const imagenSrc = `assets/${categoria.toLowerCase().replace(/\s+/g, '-')}.png`;
-<<<<<<< HEAD
-                    
-=======
 
->>>>>>> master
                     html += `<tbody id="${categoriaId}">
                                 <tr class="categoria-header">
                                     <th colspan="2">
@@ -106,33 +80,20 @@ document.addEventListener("DOMContentLoaded", function () {
                                         ${categoria}
                                     </th>
                                 </tr>`;
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> master
                     productosFiltrados.forEach(item => {
                         html += `
                             <tr>
                                 <td>${item.Nombre}</td>
                                 <td class="precio">
-<<<<<<< HEAD
-                                    ${item.Precio ? `$${item.Precio}` : 
-                                    (item.precio100gramos && item.preciokilo) ? 
-                                    `$${item.precio100gramos} / 100g<br>$${item.preciokilo} / kg` : 
-=======
                                     ${item.Precio ? `$${item.Precio}` :
-                                (item.precio100gramos && item.preciokilo) ?
-                                    `$${item.precio100gramos} / 100g<br>$${item.preciokilo} / kg` :
->>>>>>> master
-                                    `$${item.precio}`}
+                            (item.precio100gramos && item.preciokilo) ?
+                                `$${item.precio100gramos} / 100g<br>$${item.preciokilo} / kg` :
+                                `$${item.precio}`}
                                 </td>
                             </tr>`;
                     });
-<<<<<<< HEAD
-=======
 
->>>>>>> master
                     html += `</tbody>`;
                 }
             });
@@ -141,31 +102,20 @@ document.addEventListener("DOMContentLoaded", function () {
             contenido.innerHTML = html;
 
             document.querySelectorAll(".categoria-link").forEach(link => {
-<<<<<<< HEAD
-                link.addEventListener("click", function(e) {
-=======
                 link.addEventListener("click", function (e) {
->>>>>>> master
                     e.preventDefault();
                     const destino = document.querySelector(this.getAttribute("href"));
                     if (destino) {
                         const headerHeight = document.querySelector("header").offsetHeight;
-<<<<<<< HEAD
-                        const offsetTop = destino.offsetTop - headerHeight+400;
-=======
                         const offsetTop = destino.offsetTop - headerHeight + 400;
->>>>>>> master
 
                         window.scrollTo({
                             top: offsetTop,
                             behavior: "smooth"
                         });
-<<<<<<< HEAD
-=======
 
                         // Cierra el menú si está en modo responsive
                         menuCategorias.classList.remove("show");
->>>>>>> master
                     }
                 });
             });

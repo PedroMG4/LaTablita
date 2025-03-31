@@ -22,11 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     color: white;
-=======
-    color: rgb(255, 255, 255);
->>>>>>> master
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -52,11 +48,7 @@ header {
     transform: scale(1.05);
 }
 
-<<<<<<< HEAD
-/* BARRA DE NAVEGACIÓN (APLICANDO ESTILOS DE NAVLISTCONTACTO) */
-=======
 /* BARRA DE NAVEGACIÓN */
->>>>>>> master
 .navlist {
     list-style: none;
     display: flex;
@@ -71,16 +63,6 @@ header {
 .navlist a {
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
-    font-weight: 900; /* Asegura que el texto sea más grueso */
-    font-size: 16px; /* Ajusta el tamaño para que coincida mejor */
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s, transform 0.2s;
-    font-family: 'Poppins', sans-serif; /* Usa la misma fuente que en navlistcontacto */
-}
-
-=======
     font-weight: 900;
     font-size: 16px;
     padding: 10px 15px;
@@ -89,21 +71,16 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.navlist a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
 /* Menú de categorías escritorio */
->>>>>>> master
 #menu-categorias.Categorias {
     margin-top: 25px;
     margin-left: 150px;
     margin-right: 150px;
-<<<<<<< HEAD
-    background-color: #164A41;
-    border-radius: 50px;
-    display: flex; /* Activa flexbox */
-    align-items: center; /* Centra verticalmente el contenido */
-    justify-content: center; /* Opcional: Centra horizontalmente */
-    height: 60px; /* Ajusta la altura según lo necesites */
-    padding: 10px 20px; /* Espaciado interno */
-=======
     background-color: #206257;
     border-radius: 50px;
     display: flex;
@@ -111,12 +88,6 @@ header {
     justify-content: center;
     height: 60px;
     padding: 10px 20px;
->>>>>>> master
-}
-
-.navlist a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.05);
 }
 
 /* MENÚ RESPONSIVE */
@@ -131,10 +102,6 @@ header {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-/* Diseño responsive del menú */
-@media (max-width: 768px) {
-=======
 #menutoggleCategorias {
     display: none;
     font-size: 28px;
@@ -180,6 +147,10 @@ header {
     transform: scale(1.02);
 }
 
+#categoriasResponsive.show {
+    display: flex;
+}
+
 /* Ocultar en escritorio */
 @media (min-width: 769px) {
     #categoriasResponsive {
@@ -198,66 +169,90 @@ header {
 /* Responsive: Menú abajo y en flujo */
 @media (max-width: 768px) {
     .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         flex-direction: column;
-        align-items: flex-start;
         padding: 20px;
         height: auto;
+        position: relative;
     }
 
     .logo {
-        margin-left: 0;
-    }
-
->>>>>>> master
-    .headercontacto {
-        flex-direction: column;
-        align-items: center;
+        margin-left: 20px;
     }
 
     .navlist {
-        flex-direction: column;
-        width: 100%;
-<<<<<<< HEAD
+        display: none;
         position: absolute;
-        top: 150px;
+        top: 100%;
         left: 0;
-=======
->>>>>>> master
+        width: 100%;
         background: #164A41;
         text-align: center;
+        flex-direction: column;
+        z-index: 999;
+    }
+
+    #menu-toggle {
         display: none;
     }
 
-<<<<<<< HEAD
-    .navlist li {
-        margin: 15px 0;
-    }
-
-=======
->>>>>>> master
     #menu-toggle:checked + .menu-icon-action + .navlist {
         display: flex;
     }
 
     .menu-icon-action {
         display: block;
-<<<<<<< HEAD
-=======
-        margin-left: auto;
-        margin-right: 20px;
-    }
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        z-index: 1001;
+      }
+      
 
     #menu-categorias.Categorias {
         display: none;
     }
 
-    .navlist li {
-        margin: 15px 0;
+    #categoriasResponsive {
+        max-height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        background-color: #206257;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: max-height 0.4s ease;
     }
 
     #categoriasResponsive.show {
+        max-height: 500px;
+        padding: 10px 0;
+    }
+
+    #menutoggleCategorias {
         display: flex;
->>>>>>> master
+        justify-content: center;
+        width: 100%;
+        background-color: #206257;
+        color: white;
+        padding: 10px;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 998;
+    }
+
+    .navlist li {
+        margin: 15px 0;
     }
 }
 
@@ -268,8 +263,4 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 30px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> master
