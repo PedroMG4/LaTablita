@@ -8,9 +8,15 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="contacto.css">
 
-    <!-- Iconos -->
+    <!--boxicons-->     
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <!--remixicon-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- Tipografía -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
@@ -24,12 +30,16 @@
             <img src="assets/LogoBuenaCalidad.png" alt="Logo" class="logoencontacto">
         </a>
 
-        <nav>
-            <ul class="navlistcontacto">
-                <li><a href="ListaPrecios.html">Lista de precios</a></li>
-                <li><a href="index.html">Inicio</a></li>
-            </ul>
-        </nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <i class='bx bx-menu'></i> <!-- ícono hamburguesa -->
+        </label>
+
+        <ul class="navlist">
+            <li><a href="ListaPrecios.html">Lista de precios</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+
     </div>
 </header>
 
@@ -55,7 +65,8 @@
 
 <!-- FOOTER -->
 <footer>
-    <p>&copy; 2025 La Tablita | Todos los derechos reservados</p>
+    <p>&copy; 2025 La Tablita | Todos los derechos reservados</p><br>
+    <p id="devBy">Desarrollado por Pedro Garay</p>
 </footer>
 
 </body>

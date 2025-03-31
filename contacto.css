@@ -19,7 +19,7 @@ header {
     background: linear-gradient(180deg, rgba(22, 74, 65, 0.8), rgba(22, 74, 65, 0.5)), url('assets/fiambreria.jpg') no-repeat center/cover;
     height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1200px;
+    max-width: auto;
     padding: 10px 20px;
 }
 
@@ -39,6 +39,7 @@ header {
 .logoencontacto {
     width: 120px;
     transition: transform 0.3s ease-in-out;
+    margin-left: 250px;
 }
 
 .logoencontacto:hover {
@@ -46,28 +47,64 @@ header {
 }
 
 /* Barra de navegación */
-.navlistcontacto {
-    list-style: none;
+.navlist {
     display: flex;
-    gap: 20px;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    background: none !important;
+    width: 100%;
+    margin-right: 20px;
 }
 
-.navlistcontacto li {
+
+.navlist li {
     display: inline;
 }
 
-.navlistcontacto a {
+.navlist a {
     color: white;
+    text-align: end;
+    justify-content: right;
+    align-items: end;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.2s;
+    font-family: 'Poppins', sans-serif;
 }
 
-.navlistcontacto a:hover {
+.navlist a:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+#menu-toggle {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.menu-icon-action {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+#menu-toggle:checked + .menu-icon-action + .navlist {
+    display: flex;
 }
 
 /* SECCIÓN CONTACTO */
@@ -143,15 +180,30 @@ footer {
     font-size: 14px;
 }
 
+#devBy {
+    color: gray;
+}
+
 /* ESTILO RESPONSIVE */
 @media (max-width: 768px) {
     .headercontacto {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
     }
 
-    .navlistcontacto {
-        margin-top: 10px;
+    .navlist {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navlist li {
+        margin: 15px 0;
+    }
+
+    .navlist a:hover {
+        background-color: white;
+        color: #F1B24A;
     }
 
     .contacto-info {
@@ -160,5 +212,37 @@ footer {
 
     iframe {
         height: 300px;
+    }
+
+    .icons a {
+        font-size: 20px;
+        transition: all 0.5s ease;
+    }
+
+    .icons a:hover {
+        transform: scale(1.08);
+    }
+
+    .menu-icon-action {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        z-index: 1001;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .menu-icon-action {
+        display: none !important;
+    }
+
+    .navlist li {
+        margin: 0 15px;
     }
 }

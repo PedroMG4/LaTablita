@@ -151,6 +151,10 @@ header {
     display: flex;
 }
 
+#devBy{
+    color: gray;
+}
+
 /* Ocultar en escritorio */
 @media (min-width: 769px) {
     #categoriasResponsive {
