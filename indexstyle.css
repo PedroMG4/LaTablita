@@ -21,6 +21,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .header-content {
@@ -30,7 +31,6 @@ header {
 
 .logo {
     width: 300px;
-    margin-bottom: 10px;
 }
 
 .logoencontacto{
@@ -51,7 +51,6 @@ header {
 }
 
 .navlist li:hover{
-    text-decoration: underline;
     color: white;
 }
 
@@ -59,10 +58,15 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s ease;
 }
 
 .navlist a:hover{
     text-decoration: none;
+    background-color: white;
+    color: #F1B24A;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /* PRODUCTOS */
@@ -81,29 +85,10 @@ header {
     width: 250px;
 }
 
-
 .producto:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
-
-/* BOTONES */
-.boton {
-    background: #F1B24A;
-    scroll-behavior: smooth;
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: #164A41;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.5s ease;
-}
-
-.boton:hover {
-    background: #4D774E;
-    color: white;
-}
-
 /* FOOTER */
 footer {
     background: #164A41;
@@ -120,51 +105,34 @@ footer {
     border-radius: 10px;
 }
 
----------------------------------------
-
-/* Barra de navegación */
-.headercontacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffcc00; /* Color llamativo, podés cambiarlo */
-    padding: 10px 20px;
-    position: fixed; /* Hace que la barra quede fija arriba */
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+#devBy{
+    color: gray;
 }
 
-/* Logo */
-.logoencontacto {
-    height: 50px; /* Ajusta el tamaño del logo */
-    margin-left: 20px;
-}
+@media (max-width: 768px) {
+    .logo{
+        position: relative;
+        height: 300px;
+        width: 300px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 50px;
+    }
+    .header{
+        display: flex;
+        height: auto;
+    }
 
-/* Navegación */
-.navlistcontacto {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navlistcontacto li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.navlistcontacto a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.navlistcontacto a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* Hover también en mobile */
+    .navlist a:hover {
+        background-color: white;
+        color: #F1B24A;
+        padding: 10px;
+        border-radius: 8px;
+    }
 }
