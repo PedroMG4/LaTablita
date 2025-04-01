@@ -93,7 +93,11 @@ header {
 footer {
     background: #164A41;
     color: white;
-    padding: 20px;
+    height: 130px;
+    position: relative  ; 
+}
+footer p{
+    padding-top: 10px;
 }
 
 .producto img {
