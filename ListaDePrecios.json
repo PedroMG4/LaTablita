@@ -1,8 +1,8 @@
 [
     {
-        "ID": "prod-004",
+        "ID": "prod-001",
         "Nombre": "Medallones de carne La Blanca",
-        "Precio": 650,
+        "Precio": 800,
         "Pesable": false,
         "Categoria": "Congelados"
     },
@@ -439,7 +439,7 @@
         "Nombre": "Combo Pizza: 400grs queso Muzzarella + 2 Pre-pizzas",
         "Categoria": "Combos",
         "Pesable": false,
-        "Precio": 4850,
+        "Precio": 4990,
         "precio100gramos": null,
         "preciokilo": null
     },
@@ -457,7 +457,7 @@
         "Nombre": "Combo Hamburguesa: 4 medallones + Pan de hamburguesa (x 4u) + 100grs Queso cheddar",
         "Categoria": "Combos",
         "Pesable": false,
-        "Precio": 3000,
+        "Precio": 3330,
         "precio100gramos": null,
         "preciokilo": null
     },
@@ -485,5 +485,122 @@
         "Precio": 3000,
         "Pesable": false,
         "Categoria": "Bebidas"
+    },
+    {
+        "ID": "prod-67f2ae15b33792.76654917",
+        "Nombre": "Palito de agua \"fresh\"",
+        "Categoria": "Congelados",
+        "Pesable": false,
+        "Precio": 250,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2ae4b4b9b54.87804360",
+        "Nombre": "Palito de crema \"fresh\"",
+        "Categoria": "Congelados",
+        "Pesable": false,
+        "Precio": 350,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2ae5a7a40e1.64500596",
+        "Nombre": "Palito Bombón \"fresh\"",
+        "Categoria": "Congelados",
+        "Pesable": false,
+        "Precio": 600,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2ae88265542.61685880",
+        "Nombre": "Empanadas congeladas (JyQ, Carne, Pollo, Capresse) x6",
+        "Categoria": "Congelados",
+        "Pesable": false,
+        "Precio": 4000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2aea84f8368.57910358",
+        "Nombre": "Queso Cremoso",
+        "Categoria": "Quesos",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 838,
+        "preciokilo": 8380
+    },
+    {
+        "ID": "prod-67f2aedc022fa6.91231661",
+        "Nombre": "Queso Barra Noal",
+        "Categoria": "Quesos",
+        "Pesable": false,
+        "Precio": null,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2aefd6350a4.29243706",
+        "Nombre": "Pepsi Black LATA x354cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 650,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af0c2356c4.89784624",
+        "Nombre": "Coca Cola 500cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af146503f1.10202839",
+        "Nombre": "Fanta 500cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af1aa03017.97227365",
+        "Nombre": "Sprite 500cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1000,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af307119d5.78254500",
+        "Nombre": "Brahma Chopp x473 cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1680,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af3be725a8.02683135",
+        "Nombre": "Budweiser x473 cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1880,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f2af47043939.53985758",
+        "Nombre": "Schneider x473 cc",
+        "Categoria": "Bebidas",
+        "Pesable": false,
+        "Precio": 1640,
+        "precio100gramos": null,
+        "preciokilo": null
     }
 ]
