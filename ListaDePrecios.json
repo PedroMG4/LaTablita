@@ -7,6 +7,13 @@
         "Categoria": "Congelados"
     },
     {
+        "ID": "prod-002",
+        "Nombre": "Medallones de carne Doble Burger SWIFT",
+        "Precio": 850,
+        "Pesable": false,
+        "Categoria": "Congelados"
+    },
+    {
         "ID": "prod-005",
         "Nombre": "Queso Barra Tybo Santa María",
         "precio100gramos": 923,
