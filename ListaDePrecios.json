@@ -284,65 +284,65 @@
     {
         "ID": "prod-045",
         "Nombre": "Pan Lactal CHICO SALVADO CANGA",
-        "Precio": 1500,
+        "Precio": 1910,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-046",
         "Nombre": "Pan Lactal GRANDE CANGA",
-        "Precio": 1800,
+        "Precio": 2280,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-047",
         "Nombre": "PrePizza CANGA",
-        "Precio": 800,
+        "Precio": 970,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-048",
         "Nombre": "Pan de Miga CANGA",
-        "Precio": 2900,
+        "Precio": 4310,
         "Pesable": false,
-        "Categoria": "Panificados"
-    },
-    {
-        "ID": "prod-049",
-        "Nombre": "Paneton CANGA",
-        "Precio": 9200,
-        "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-050",
         "Nombre": "Pan pancho comun x6 CANGA",
-        "Precio": 960,
+        "Precio": 1170,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-051",
         "Nombre": "Pan de Hamburguesa x4 CANGA",
-        "Precio": 850,
+        "Precio": 1050,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-052",
-        "Nombre": "Pan común TÍA MARCELA",
-        "Precio": 1430,
-        "Pesable": false,
-        "Categoria": "Panificados"
-    },
-    {
-        "ID": "prod-053",
-        "Nombre": "Mayonesa Dánica Fiesta 100grs.",
-        "Precio": 420,
-        "Pesable": false,
-        "Categoria": "Varios"
+        "Nombre": "Pan Mignon",
+        "Precio": null,
+        "Pesable": true,
+        "Categoria": "Panificados",
+        "precio100gramos": 165,
+        "preciokilo": 1650
     },
     {
         "ID": "prod-054",
@@ -352,53 +352,22 @@
         "Categoria": "Varios"
     },
     {
-        "ID": "prod-055",
-        "Nombre": "Mayonesa Hellmann's 237grs.",
-        "Precio": 1260,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
-        "ID": "prod-056",
-        "Nombre": "Mayonesa Hellmann's 475grs.",
-        "Precio": 2150,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
-        "ID": "prod-057",
-        "Nombre": "Mayonesa Hellmann's Clásica 2.9kg.",
-        "Precio": 7920,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
         "ID": "prod-058",
         "Nombre": "Mayonesa Hellmann's Suave 2.9kg.",
-        "Precio": 7100,
+        "Precio": 8200,
         "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
-        "ID": "prod-059",
-        "Nombre": "Mayonesa Natura 250grs.",
-        "Precio": 320,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
-        "ID": "prod-060",
-        "Nombre": "Mayonesa Natura 500grs.",
-        "Precio": 600,
-        "Pesable": false,
-        "Categoria": "Varios"
+        "Categoria": "Varios",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-061",
         "Nombre": "Ketchup Hellmann's 3kg.",
-        "Precio": 11680,
+        "Precio": 12000,
         "Pesable": false,
-        "Categoria": "Varios"
+        "Categoria": "Varios",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-062",
@@ -408,26 +377,13 @@
         "Categoria": "Varios"
     },
     {
-        "ID": "prod-063",
-        "Nombre": "Mostaza Savora 250grs.",
-        "Precio": 460,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
-        "ID": "prod-064",
-        "Nombre": "Mostaza Savora 500grs.",
-        "Precio": 830,
-        "Pesable": false,
-        "Categoria": "Varios"
-    },
-    {
         "ID": "prod-066",
-        "Nombre": "Aceituna La Portada suelta balde 5kg",
-        "precio100gramos": 620,
-        "preciokilo": 6200,
+        "Nombre": "Margarina Margadan Masas",
+        "precio100gramos": 444,
+        "preciokilo": 4440,
         "Pesable": true,
-        "Categoria": "Varios"
+        "Categoria": "Varios",
+        "Precio": null
     },
     {
         "ID": "prod-679cf27b725952.81665349",
@@ -482,13 +438,6 @@
         "Precio": 6000,
         "precio100gramos": null,
         "preciokilo": null
-    },
-    {
-        "ID": "prod-064",
-        "Nombre": "Pepsi de 3Lts",
-        "Precio": 3000,
-        "Pesable": false,
-        "Categoria": "Bebidas"
     },
     {
         "ID": "prod-67f2ae15b33792.76654917",
@@ -660,5 +609,14 @@
         "Precio": null,
         "precio100gramos": 395,
         "preciokilo": 3950
+    },
+    {
+        "ID": "prod-67f87fdddafb27.31468037",
+        "Nombre": "Bizcochitos salados CANGA",
+        "Categoria": "Panificados",
+        "Pesable": false,
+        "Precio": 1540,
+        "precio100gramos": null,
+        "preciokilo": null
     }
 ]
