@@ -9,9 +9,11 @@
     {
         "ID": "prod-002",
         "Nombre": "Medallones de carne Doble Burger SWIFT",
-        "Precio": 850,
+        "Precio": 830,
         "Pesable": false,
-        "Categoria": "Congelados"
+        "Categoria": "Congelados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-005",
@@ -23,11 +25,12 @@
     },
     {
         "ID": "prod-006",
-        "Nombre": "Queso Azul Tremblay",
-        "precio100gramos": 1750,
-        "preciokilo": 17500,
+        "Nombre": "Queso Azul La Quesera",
+        "precio100gramos": 1804,
+        "preciokilo": 18040,
         "Pesable": true,
-        "Categoria": "Quesos"
+        "Categoria": "Quesos",
+        "Precio": null
     },
     {
         "ID": "prod-007",
@@ -56,233 +59,227 @@
     {
         "ID": "prod-012",
         "Nombre": "Paleta Sandwichera Piara",
-        "precio100gramos": 290,
-        "preciokilo": 2900,
+        "precio100gramos": 295,
+        "preciokilo": 2950,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-014",
         "Nombre": "Paleta Cocida Lario",
-        "precio100gramos": 900,
-        "preciokilo": 9000,
+        "precio100gramos": 967,
+        "preciokilo": 9670,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-015",
         "Nombre": "Jamón 214",
-        "precio100gramos": 1064,
-        "preciokilo": 10640,
+        "precio100gramos": 1432,
+        "preciokilo": 14320,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-016",
         "Nombre": "Jamón Weslchen",
-        "precio100gramos": 615,
-        "preciokilo": 6150,
+        "precio100gramos": 674,
+        "preciokilo": 6740,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-019",
         "Nombre": "Salame La Medalla",
-        "precio100gramos": 1040,
-        "preciokilo": 10400,
+        "precio100gramos": 1400,
+        "preciokilo": 14000,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-020",
         "Nombre": "Salame Lario",
-        "precio100gramos": 1765,
-        "preciokilo": 17650,
+        "precio100gramos": 2076,
+        "preciokilo": 20760,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-021",
         "Nombre": "Salame Champion",
-        "precio100gramos": 973,
-        "preciokilo": 9730,
+        "precio100gramos": 1190,
+        "preciokilo": 11900,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-022",
         "Nombre": "Mortadela Piara",
-        "precio100gramos": 435,
-        "preciokilo": 4350,
+        "precio100gramos": 478,
+        "preciokilo": 4780,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-023",
         "Nombre": "Mortadela Lario",
-        "precio100gramos": 670,
-        "preciokilo": 6700,
+        "precio100gramos": 775,
+        "preciokilo": 7750,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-024",
         "Nombre": "Salchichón Primavera 214",
-        "precio100gramos": 616,
-        "preciokilo": 6160,
+        "precio100gramos": 800,
+        "preciokilo": 8000,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-025",
         "Nombre": "Salame Bastón La Casona",
-        "precio100gramos": 1600,
-        "preciokilo": 16000,
+        "precio100gramos": 2161,
+        "preciokilo": 21610,
         "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-026",
         "Nombre": "Bondiola 214",
-        "precio100gramos": 2000,
-        "preciokilo": 20000,
+        "precio100gramos": 2609,
+        "preciokilo": 26090,
         "Pesable": true,
-        "Categoria": "Fiambres"
-    },
-    {
-        "ID": "prod-027",
-        "Nombre": "Salamin La Casona",
-        "precio100gramos": 315,
-        "preciokilo": 3150,
-        "Pesable": true,
-        "Categoria": "Fiambres"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-028",
-        "Nombre": "Panceta Ahumada Cagnoli",
-        "precio100gramos": 1200,
-        "preciokilo": 12000,
+        "Nombre": "Panceta Ahumada Tacural",
+        "precio100gramos": 1800,
+        "preciokilo": 18000,
         "Pesable": true,
-        "Categoria": "Fiambres"
-    },
-    {
-        "ID": "prod-029",
-        "Nombre": "Dulce de Batata Arcor",
-        "precio100gramos": 70,
-        "preciokilo": 700,
-        "Pesable": true,
-        "Categoria": "Dulces"
+        "Categoria": "Fiambres",
+        "Precio": null
     },
     {
         "ID": "prod-030",
         "Nombre": "Dulce de Batata Dulcor",
-        "precio100gramos": 301,
-        "preciokilo": 3010,
+        "precio100gramos": 350,
+        "preciokilo": 3500,
         "Pesable": true,
-        "Categoria": "Dulces"
-    },
-    {
-        "ID": "prod-031",
-        "Nombre": "Dulce de Batata c\/chocolate Arcor",
-        "precio100gramos": 70,
-        "preciokilo": 700,
-        "Pesable": true,
-        "Categoria": "Dulces"
+        "Categoria": "Dulces",
+        "Precio": null
     },
     {
         "ID": "prod-032",
         "Nombre": "Dulce de Batata c\/chocolate Dulcor",
-        "precio100gramos": 70,
-        "preciokilo": 700,
+        "precio100gramos": 350,
+        "preciokilo": 3500,
         "Pesable": true,
-        "Categoria": "Dulces"
-    },
-    {
-        "ID": "prod-033",
-        "Nombre": "Dulce de Membrillo Arcor",
-        "precio100gramos": 90,
-        "preciokilo": 900,
-        "Pesable": true,
-        "Categoria": "Dulces"
-    },
-    {
-        "ID": "prod-034",
-        "Nombre": "Dulce de Membrillo Dulcor 5kg",
-        "precio100gramos": 392,
-        "preciokilo": 3920,
-        "Pesable": true,
-        "Categoria": "Dulces"
+        "Categoria": "Dulces",
+        "Precio": null
     },
     {
         "ID": "prod-035",
         "Nombre": "Dulce de Leche Santa María x 25kg",
-        "precio100gramos": 320,
-        "preciokilo": 3200,
+        "precio100gramos": 350,
+        "preciokilo": 3500,
         "Pesable": true,
-        "Categoria": "Dulces"
+        "Categoria": "Dulces",
+        "Precio": null
     },
     {
         "ID": "prod-036",
         "Nombre": "Ravioles J y Q",
-        "Precio": 1600,
+        "Precio": 2020,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-037",
         "Nombre": "Ravioles Verdura",
-        "Precio": 1600,
+        "Precio": 2020,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-038",
         "Nombre": "Ñoquis",
-        "Precio": 1000,
+        "Precio": 1310,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-039",
         "Nombre": "Fideo casero",
-        "Precio": 1000,
+        "Precio": 1310,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-040",
         "Nombre": "Tapa de Pascualina",
-        "Precio": 980,
+        "Precio": 1300,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-041",
         "Nombre": "Tapa de Empanada HORNO La Nona",
-        "Precio": 750,
+        "Precio": 930,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-042",
         "Nombre": "Tapa de Empanada FREIR La Nona",
-        "Precio": 630,
+        "Precio": 790,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-043",
         "Nombre": "Tapa de Pastelito La Nona",
-        "Precio": 630,
+        "Precio": 790,
         "Pesable": false,
-        "Categoria": "Pastas"
+        "Categoria": "Pastas",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-044",
         "Nombre": "Pan Lactal CHICO CANGA",
-        "Precio": 1500,
+        "Precio": 1910,
         "Pesable": false,
-        "Categoria": "Panificados"
+        "Categoria": "Panificados",
+        "precio100gramos": null,
+        "preciokilo": null
     },
     {
         "ID": "prod-045",
@@ -530,22 +527,13 @@
         "preciokilo": null
     },
     {
-        "ID": "prod-67f2aea84f8368.57910358",
-        "Nombre": "Queso Cremoso",
+        "ID": "prod-67f2aedc022fa6.91231661",
+        "Nombre": "Queso Barra Noalsa",
         "Categoria": "Quesos",
         "Pesable": true,
         "Precio": null,
-        "precio100gramos": 838,
-        "preciokilo": 8380
-    },
-    {
-        "ID": "prod-67f2aedc022fa6.91231661",
-        "Nombre": "Queso Barra Noal",
-        "Categoria": "Quesos",
-        "Pesable": false,
-        "Precio": null,
-        "precio100gramos": null,
-        "preciokilo": null
+        "precio100gramos": 1334,
+        "preciokilo": 13440
     },
     {
         "ID": "prod-67f2aefd6350a4.29243706",
@@ -609,5 +597,68 @@
         "Precio": 1640,
         "precio100gramos": null,
         "preciokilo": null
+    },
+    {
+        "ID": "prod-67f87c7179e5d0.25720586",
+        "Nombre": "Helado en pote Fresh DDL\/AM - FR\/CH",
+        "Categoria": "Congelados",
+        "Pesable": false,
+        "Precio": 1250,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f87cec44db82.82425648",
+        "Nombre": "Quesos Fraccionados La Serenísima",
+        "Categoria": "Quesos",
+        "Pesable": false,
+        "Precio": 8600,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f87d3926f971.94854448",
+        "Nombre": "Queso cheddar Tonadita en sobre",
+        "Categoria": "Quesos",
+        "Pesable": false,
+        "Precio": 2200,
+        "precio100gramos": null,
+        "preciokilo": null
+    },
+    {
+        "ID": "prod-67f87d5f7198a8.12084921",
+        "Nombre": "Queso Pategras Santa Maria",
+        "Categoria": "Quesos",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 1582,
+        "preciokilo": 15820
+    },
+    {
+        "ID": "prod-67f87dac61b931.90724508",
+        "Nombre": "Queso al pesto Don Angel",
+        "Categoria": "Quesos",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 1848,
+        "preciokilo": 18480
+    },
+    {
+        "ID": "prod-67f87dd3243902.83125623",
+        "Nombre": "Queso Muzarella Cilindro Santa Maria",
+        "Categoria": "Quesos",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 992,
+        "preciokilo": 9920
+    },
+    {
+        "ID": "prod-67f87edc773765.45181388",
+        "Nombre": "Dulce de Membrillo Dulcor",
+        "Categoria": "Dulces",
+        "Pesable": true,
+        "Precio": null,
+        "precio100gramos": 395,
+        "preciokilo": 3950
     }
 ]
